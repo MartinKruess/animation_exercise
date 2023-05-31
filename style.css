@@ -58,9 +58,7 @@ section{
 
 /* Rolling */
 .containerRolle:hover > .rolling{
-  rotate: 360deg;
-  margin-left: 40rem;
-  transition-property: rotate, margin-left;
+  transform: translate(40rem) rotate(360deg);
   transition-duration: 4s;
 }
 
