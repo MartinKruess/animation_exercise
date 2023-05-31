@@ -21,3 +21,5 @@ Dadurch entsteht ein realistischer Effekt (rollt nicht auf der Stelle)
 
 - section 1: leicht
 - section 2: schwerer
+
+es gibt einen solution branch auf dem ihr nachschauen könnt, falls ihr absolut nicht weiter kommt. Sonst einfach anschreiben und fragen ;)
