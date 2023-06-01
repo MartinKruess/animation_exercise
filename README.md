@@ -1,5 +1,7 @@
 # Kleine Übungen zum Thema Animation
 
+<video src="preview/Animationen_sind_toll!.mp4" controls title="Title"></video>
+
 ## Hilfestellung
 
 - jede Animation verwendet ausschließlich transition (property und duration)
