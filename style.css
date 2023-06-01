@@ -53,14 +53,16 @@ section{
 
 .hoverRotate:hover{
   rotate: 360deg;
-  transition: rotate 2s;
+  transition: rotate 3s;
 }
+
 
 /* Rolling */
 .containerRolle:hover > .rolling{
   transform: translate(40rem) rotate(360deg);
-  transition-duration: 4s;
+  transition-duration: 3s;
 }
+
 
 /* Hidden Monster */
 .pos{
@@ -95,7 +97,8 @@ section{
   transition-duration: 4s;
 }
 
-/* Font effect */
+
+/* -- Font effect -- */
 
 .fontContainer{
   display: flex;
@@ -125,8 +128,8 @@ section{
   transition: letter-spacing 4s;
 }
 
-/* Progressbar */
 
+/* Progressbar */
 
 .progressBarContainer{
   width: 30rem;
@@ -145,4 +148,42 @@ section{
 .progressBarContainer:hover > .progressBar{
   width: 60%;
   transition: width 6s;
+}
+
+
+/* -- Dropdown Container -- */
+
+label{
+  border: solid 1px #242628;
+}
+
+.blend{
+  display: none;
+}
+
+#textblock{
+  display: none;
+}
+
+#textblock:checked ~ .blend {
+  display: block;
+}
+
+
+/* Textblock Slow */
+
+#textblockSlow{
+  display: none;
+}
+
+.slideDown{
+  height: 2.2rem;
+  overflow: hidden;
+  transition: height 2s;
+}
+
+#textblockSlow:checked ~ .slideDown{
+  height: 8.5rem;
+  /* Transition funktioniert nur mit einem festen height Wert nicht mit height: auto ! */
+  transition: height 2s;
 }
