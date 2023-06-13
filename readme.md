@@ -1,56 +1,56 @@
-# Kleine Übungen zum Thema Animation
+# Small animation exercises
 
-<video src="preview/Animationen_sind_toll!.mp4" controls title="Title"></video>
+<video src="preview/Animations_are_great!.mp4" controls title="Title"></video>
 
-## Aufgaben
+## Assistance
 
-Beim nachbauen der Seite sollst du animationen nur mit **transition** anwenden.
-Achte darauf semantische Tags zu verwenden (main, section, article) sofern möglich.
-Gebe jeder Section eine Höhe von 90vh
+- each animation uses only transition (property and duration)
+- the main container is centered and the sections have a height of 90vh
+- the inner containers have a fixed height of 14rem
+- the divs have a width and height of 10rem
 
-## Hilfestellung
+## Effects
 
-- jede Animation verwendet ausschließlich transition (property und duration)
-- der main container wird zentriert und die sections haben eine Höhe von 90vh
-- die inneren Container haben eine feste Höhe von 14rem
-- die divs haben eine Breite und Höhe von 10rem
+- the animations start when hovering!
+- rotations require an indication in deg (circle)
+- section 1 animation duration of 2s
+- section 2 animation duration of 4s
 
+Tip: The distance that rolling objects cover in one revolution is the circumference ;)
+This creates a realistic effect (does not roll in place)
 
-Tip: Die Strecke, die rollende Gegenstände bei einer Umdrehung schaffen ist der Umfang ;)
-Dadurch entsteht ein realistischer Effekt (rollt nicht auf der Stelle)
+## Toggle switch
 
-## Toggle Switch
+Creating a toggle switch consists of 4 steps.
 
-Einen Toggle-Switch zu erstellen besteht aus 4 Schritten.
+Step 1:
+We need a container, a label is suitable for this, since only this can address a checkbox.
 
-Schritt 1:
-Wir brauchen einen Container, hierfür eignet sich ein Label, da nur dieses eine checkbox ansprechen kann.
+Step 2:
+We need a checkbox, which we make invisible with display: none.
 
-Schritt 2:
-Wir benötigen einen checkbox, die wir mit display: none unsichtbar machen.
+Step 3:
+We need content that we completely style!
+The content conatiner MUST be on the same level as the checkbox!
 
-Schritt 3:
-Wir benötigen Content, den wir komplett fertig stylen!
-Der content conatiner MUSS auf der selben Ebene sein, wie die checkbox!
-
-Schritt 4:
-Wir sagen was gescheheben soll, wenn checkbox = checked
-Beliebt sind änderungen der display Eigenschaften oder der width/height
+Step 4:
+We say what should happen when checkbox = checked
+Changes to the display properties or the width/height are popular
 
 ```
-  <label>
-    <input type="checkbox" id="name">
-    <p>Anklickbares Element/Überschrift/Icon/:befor/:after</p>
-    <ul>
-      <li>Content...</li>
-    </ul>
-  </label>
+<label>
+  <input type="checkbox" id="name">
+  <p>Clickable element/heading/icon/:before/:after</p>
+  <ul>
+    <li>Content...</li>
+  </ul>
+</label>
 ```
 
-## Schwierigkeitsgrad
+## Difficulty
 
-- section 1: Roll-Animation - sehr leicht
-- section 2: Dekoration - leicht
-- section 3: toggle-switch - etwas schwerer
+- section 1: roll animation - very easy
+- section 2: Decoration - easy
+- section 3: toggle-switch - a bit harder
 
-es gibt einen solution branch auf dem ihr nachschauen könnt, falls ihr absolut nicht weiter kommt. Sonst einfach anschreiben und fragen ;)
+there is a solution branch you can look at if you get absolutely stuck. Otherwise just write and ask ;)
